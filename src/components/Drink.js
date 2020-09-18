@@ -6,9 +6,8 @@ function Drink(props) {
     <React.Fragment>
       <div onClick={() => props.whenDrinkClicked(props.id)}>
         <h3>{props.name}</h3>
-        <p>
-          Drinked by {props.brand} on {props.price}
-        </p>
+        <p>Brand: {props.brand}</p>
+        <p>{props.price}</p>
       </div>
       <button onClick={() => props.whenUptapClicked(props.id)}>Add Unit</button>
       <p>{props.tap} units</p>
