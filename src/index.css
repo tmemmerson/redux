@@ -16,3 +16,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.opacity90 {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
