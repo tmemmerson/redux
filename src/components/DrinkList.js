@@ -6,7 +6,7 @@ import jumbotron from "react-bootstrap/Button";
 function DrinkList(props) {
   return (
     <React.Fragment>
-      <div class="jumbotron">
+      <div class="jumbotron opacity90">
         <hr />
         {Object.values(props.drinkList)
           .map((drink) => (
