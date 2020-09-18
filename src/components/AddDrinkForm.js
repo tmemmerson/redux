@@ -21,7 +21,7 @@ function AddDrinkForm(props) {
     <React.Fragment>
       <ReusableForm
         formSubmissionHandler={handleNewDrinkFormSubmission}
-        buttonText="drink your drink, drink-haste"
+        buttonText="add drink to your list"
       />
     </React.Fragment>
   );
