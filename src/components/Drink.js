@@ -10,10 +10,10 @@ function Drink(props) {
           Drinked by {props.brand} on {props.price}
         </p>
       </div>
-      <button onClick={() => props.whenUptapClicked(props.id)}>Uptap</button>
-      <p>{props.tap}</p>
+      <button onClick={() => props.whenUptapClicked(props.id)}>Add Unit</button>
+      <p>{props.tap} units</p>
       <button onClick={() => props.whenDowntapClicked(props.id)}>
-        Downtap
+        Remove Unit
       </button>
       <hr />
     </React.Fragment>
