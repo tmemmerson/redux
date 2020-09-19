@@ -13,7 +13,7 @@ function DrinkEdit(props) {
       price: event.target.price.value,
       picture: event.target.picture.value,
       tap: drink.tap,
-      id: drink.id, // keep the id the same, edit everything else using event listener
+      id: drink.id,
     });
   }
 

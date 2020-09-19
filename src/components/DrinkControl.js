@@ -55,7 +55,6 @@ class DrinkControl extends React.Component {
     dispatch(action2);
   };
 
-  // we are adding the updated drink to the drinklist, it uses the same id and adds the new information given by the user (from drinkEdit)
   handleEditingDrinkInList = (drinkToEdit) => {
     const { dispatch } = this.props;
     const { id, name, brand, flavor, price, picture, tap } = drinkToEdit;
@@ -75,17 +74,6 @@ class DrinkControl extends React.Component {
       selectedDrink: null,
     });
   };
-
-  // handleEditingDrinkInList = (drinkToEdit) => {
-  //   const editedMasterDrinkList = this.state.masterDrinkList
-  //     .filter((drink) => drink.id !== this.state.selectedDrink.id)
-  //     .concat(drinkToEdit);
-  //   this.setState({
-  //     masterDrinkList: editedMasterDrinkList,
-  //     editing: false,
-  //     selectedDrink: null,
-  //   });
-  // };
 
   handleDeletingDrink = (id) => {
     const { dispatch } = this.props;

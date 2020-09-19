@@ -28,6 +28,7 @@ function DrinkList(props) {
             .sort((a, b) => b.props.tap - a.props.tap)}
         </div>
       </div>
+      <div id="app"></div>
     </React.Fragment>
   );
 }
