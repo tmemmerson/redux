@@ -1,3 +1,6 @@
+
+
+<img width="825 px" height="450px" src="https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/drink-app.jpg">
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
